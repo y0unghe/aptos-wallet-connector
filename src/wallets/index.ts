@@ -13,7 +13,6 @@ export const SUPPORTED_WALLETS = [
   'martian',
   'pontem',
   'fewcha',
-  'blocto',
 ] as const
 
 export type WalletType = typeof SUPPORTED_WALLETS[number]
